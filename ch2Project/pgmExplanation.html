@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Program Explanation: Simple Grade Checker</title>
+</head>
+<body>
+
+<h1>Explaining a Simple Grade Checker Program</h1>
+
+<p>
+This web page explains a short <abbr title="JavaScript">JS</abbr> program that decides whether a student
+passes based on a test score. In this context, <dfn>JS</dfn> stands for <strong>JavaScript</strong>, a language
+used to add logic to web pages. The idea is simple, but it shows how <em>input</em>, <var>variables</var>, and
+<em>output</em> work together.
+</p>
+
+<h2>The Code Fragment</h2>
+
+<p>
+Below is the <mark>entire program</mark>. It is short and focused, which makes it easy to analyze:
+</p>
+
+<pre><code>
+let score = 78;
+let passingScore = 70;
+
+if (score &gt;= passingScore) {
+  console.log("You passed!");
+} else {
+  console.log("You did not pass.");
+}
+</code></pre>
+
+<h2>How It Works</h2>
+
+<p>
+The specific variable <var>score</var> stores the <strong>input</strong> value <samp>78</samp>.
+The variable <var>passingScore</var> is set to <samp>70</samp>. When the program runs, it compares these two values.
+If <var>score</var> is greater than or equal to <var>passingScore</var>, the program prints the
+<strong>output</strong> message <samp>You passed!</samp>.
+Otherwise, it prints <samp>You did not pass.</samp>.
+</p>
+
+<p>
+In practice, a user might type a number using the keyboard, such as <kbd>78</kbd>, and the program would evaluate it.
+The result you see in the console is the program’s final decision.
+</p>
+
+<h2>Why This Matters</h2>
+
+<p>
+As <cite>Clean Code</cite> by Robert C. Martin explains, <q>Clean code always looks like it was written by someone who cares.</q>
+This small example shows how even a tiny program can be written clearly and read easily.
+</p>
+
+<p>
+Notice how the logic is easy to follow: first the data is stored, then a decision is made, and finally a message is shown.
+This is a basic pattern you will see in many programs, from small scripts to large applications.
+</p>
+
+<p>
+<small>
+If you changed <var>score</var> to 65, the output would change, which demonstrates how sensitive programs are to their input.
+</small>
+</p>
+
+</body>
+</html>
